@@ -1,5 +1,6 @@
 
-class open_URL():
+class Open_URL():
+    
     driver=webdriver.firefox()
     driver.get("http://www.python.org")
     assert "Python" in driver.title

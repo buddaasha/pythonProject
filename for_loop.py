@@ -3,7 +3,7 @@ import datetime as date
 
 class Apple():
     def __init__(self):
-    def hello(self):
+    # def hello(self):
         self.f_name = str(input("Enter your first_name:"))
         self.l_name = str(input("Enter your last_name:"))
         if self.f_name:
@@ -20,16 +20,20 @@ class Apple():
          return(a_name)
 
 
-class Ball()
+class Ball():
     def b(self):
         self.legs = str(input("Enter the number of legs"))
         self.head = str(input("Enter the number of head"))
         return(self.legs, self.head)
+        apple_help = self.b
 
 
 def main():
     nameinstance = Apple()
     nameinstance.hello()
     nameinstance.printing()
+
+
 if __name__=='__main__':
     main()
+    

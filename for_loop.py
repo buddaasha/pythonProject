@@ -14,6 +14,8 @@ class Apple():
     def printing(self):
         print("Hello"+" "+self.f_name+" "+self.l_name)
         print("Hello Nepal")
+        for i in range(1,5):
+            print(i)
 
     def details_apple(self):
          a_name = str(input("Apples name:"))

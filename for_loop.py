@@ -20,7 +20,7 @@ class Apple():
          return(a_name)
 
 
-class Ball()
+class Ball():
     def b(self):
         self.legs = str(input("Enter the number of legs"))
         self.head = str(input("Enter the number of head"))

@@ -14,11 +14,10 @@ class Apple():
     def printing(self):
         print("Hello"+" "+self.f_name+" "+self.l_name)
         print("Hello Nepal")
-
-    def details_apple(self):
-         a_name = str(input("Apples name:"))
-         return(a_name)
-
+        for i in range(2,5):
+            print("Hello World")
+            print(i)
+            
 
 class Ball():
     def b(self):

@@ -16,6 +16,8 @@ class Apple():
         print("Hello Nepal")
         for i in range(1,5):
             print(i)
+            i= i+1
+            print(i)
 
     def details_apple(self):
          a_name = str(input("Apples name:"))

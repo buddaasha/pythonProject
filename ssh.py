@@ -1,16 +1,30 @@
-from Crypto.Cipher import AES
 
-from Crypto.Random import get_random_bytes
+class Addition():
+    first = 0
+    second = 0
+    answer = 0
+    def __init__(self,f,s):
+        self.first = f
+        self.second = s
+    def add(self):
+       self.answer = self.first+self.second
+       return self.answer
+    def display(self):
+        print(self.first)
+        print(self.second)
+        print(self.answer)
+    def big(self):
+        if (self.answer == 10):
+            print("i is 10")
+        else:
+            print ("i is not present")
 
-data = b'secret data'
-
-key = get_random_bytes(16)
-cipher = AES.new(key, AES.MODE_EAX)
-ciphertext, tag = cipher.encrypt_and_digest(data)
-
-file_out = open("encrypted.bin", "wb")
-[file_out.write(x) for x in (cipher.nonce, tag, ciphertext)]
-file_out.close()
-    
+obj = Addition(100,200)
+obj.add()
+obj.display()
+obj.big
 
 
+
+   
+        

@@ -1,9 +1,10 @@
+from self_test import check
 import numbers as number
 import datetime as date
 
+
 class Apple():
     def __init__(self):
-    # def hello(self):
         self.f_name = str(input("Enter your first_name:"))
         self.l_name = str(input("Enter your last_name:"))
         if self.f_name:
